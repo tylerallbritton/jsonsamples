@@ -1,0 +1,54 @@
+{
+	"requests":
+	[
+		{
+			"batch_id" : "143283595073",
+			"lender" : "Anytown Bank",
+			"submission_dtm" : "05/07/15 08:15 AM",
+			"files" :
+			[
+				{
+					"file_name" : "UCD5Good3BadSchVal2BadFiTy.zip",
+					"lender_loan_num" : "AB_9687351003",
+					"schema_valid" : "Yes",
+					"document_id" : "098765432",
+					"case_file_id" : "123456789",
+					"workflow" :
+					{
+						"status" : "In Progress",
+						"step_cnt" : 10,
+						"success_cnt" : 5,
+						"error_cnt" : 0
+					},
+					"messages" :
+					[
+						{
+							"message" : "No messages"
+						}
+					]
+				},
+				{
+					"file_name" : "UCDTestNonSeller_badARM.doc",
+					"lender_loan_num" : "AB_4456338901",
+					"schema_valid" : "Yes",
+					"document_id" : "675894371",
+					"case_file_id" : "533239221",
+					"workflow" :
+					{
+						"status" : "In Progress",
+						"step_cnt" : 10,
+						"success_cnt" : 9,
+						"error_cnt" : 1
+					},
+					"messages" :
+					[
+						{
+							"message" : "No messages"
+						}
+					]
+				}
+				
+			]
+		}
+	]
+}
